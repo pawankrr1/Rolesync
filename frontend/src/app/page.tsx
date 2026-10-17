@@ -27,6 +27,7 @@ export default function LandingPage() {
             {/* Left Column: Clear Value Proposition */}
             <div className="lg:col-span-7 space-y-6">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded bg-[#EFF6FF] border border-[#DBEAFE] text-xs font-semibold text-[#2563EB] shadow-xs">
+                <span className="px-1.5 py-0.5 rounded bg-[#2563EB] text-white text-[10px] font-bold tracking-wider uppercase">CODE YUDH</span>
                 <span className="font-mono">MATCH → GAP → LEARN → GROW</span>
               </div>
 

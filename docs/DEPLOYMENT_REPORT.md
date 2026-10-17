@@ -1,7 +1,7 @@
 # Career Intelligence — Production Deployment Report
 
 **Deployment Date:** September 27, 2026  
-**Build & Release:** Production v1.0.0 (SIH 2026 / Build for Bharat 2.0)  
+**Build & Release:** Production v1.0.0 (SIH 2026 / CODE YUDH)  
 **Security & Zero-Leakage Audit:** Passed (Zero secrets committed or printed)
 
 ---

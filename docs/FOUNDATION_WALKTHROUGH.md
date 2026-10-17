@@ -1,6 +1,6 @@
 # Foundation Walkthrough: Career Intelligence
 
-> **SIH 2026 — Build for Bharat 2.0 Hackathon**  
+> **SIH 2026 — CODE YUDH Hackathon**  
 > **Team: Move-On Coders**  
 > **Tagline:** MATCH → GAP → LEARN → GROW
 
@@ -46,7 +46,7 @@ In accordance with the foundational milestones specified in `docs/IMPLEMENTATION
 
 #### Layout & Common States (`src/components/layout/` & `src/components/common/`):
 - `Navbar.tsx`: Global navigation header with branding, live API status indicator dot (querying `/api/v1/health`), and quick CTAs.
-- `Footer.tsx`: SIH 2026 Build for Bharat 2.0 attribution, Team Move-On Coders roster, and Zero-PII privacy guarantee.
+- `Footer.tsx`: SIH 2026 CODE YUDH attribution, Team Move-On Coders roster, and Zero-PII privacy guarantee.
 - `DashboardSidebar.tsx`: Persistent contextual workspace navigation for Candidate and Recruiter sections.
 - `LoadingState.tsx`: Animated circular pulse and stage spinner for pipeline processing states.
 - `EmptyState.tsx`: Clean empty state illustration with action button for unpopulated lists.

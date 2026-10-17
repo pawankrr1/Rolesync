@@ -102,7 +102,7 @@ export function Footer() {
         </div>
 
         <div className="pt-8 border-t border-[#2D3748] flex flex-col sm:flex-row items-center justify-between gap-4 text-[11px] text-[#B8C0CD]">
-          <p>© {new Date().getFullYear()} RoleSync. Professional Career Intelligence.</p>
+          <p>© {new Date().getFullYear()} RoleSync • CODE YUDH. Professional Career Intelligence.</p>
           <p className="text-center sm:text-right">
             Decision support platform. Objective skill match engine without black-box filtering.
           </p>

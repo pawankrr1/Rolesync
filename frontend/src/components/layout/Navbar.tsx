@@ -77,8 +77,8 @@ export function Navbar() {
               <span className="text-base font-bold tracking-tight text-[#172033] leading-none">
                 RoleSync
               </span>
-              <span className="text-[10px] font-medium text-[#5E6878] mt-0.5">
-                Career Intelligence
+              <span className="text-[10px] font-semibold text-[#2563EB] mt-0.5 tracking-wide">
+                Career Intelligence • CODE YUDH
               </span>
             </div>
           </Link>

@@ -1,6 +1,6 @@
 # Career Intelligence — Production Deployment Guide
 
-**Build for Bharat 2.0 | Smart India Hackathon 2026**  
+**CODE YUDH | Smart India Hackathon 2026**  
 **Version:** 1.0.0  
 **Target Environment:** Production Cloud (Kubernetes, AWS ECS, Docker Compose, or Bare-Metal Linux)
 

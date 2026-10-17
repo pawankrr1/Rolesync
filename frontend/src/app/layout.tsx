@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "RoleSync — Know Your Skills. Find Your Next Role.",
+  title: "RoleSync — CODE YUDH | Career Intelligence & Skill Matching",
   description:
     "RoleSync helps candidates understand their skills, find career matches, identify gaps, and build a practical learning path.",
 };

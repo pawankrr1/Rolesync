@@ -2,7 +2,7 @@
 
 > **MATCH → GAP → LEARN → GROW**  
 > *An explainable AI talent–job matching ecosystem for India.*  
-> **Smart India Hackathon 2026 — Build for Bharat 2.0** | **Team Move-On Coders**
+> **Smart India Hackathon 2026 — CODE YUDH** | **Team Move-On Coders**
 
 ---
 

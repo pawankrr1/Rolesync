@@ -25,7 +25,7 @@ async def lifespan(app: FastAPI):
 app = FastAPI(
     title=settings.PROJECT_NAME,
     version=settings.VERSION,
-    description="Explainable AI talent-job matching ecosystem for India (Build for Bharat 2.0).",
+    description="Explainable AI talent-job matching ecosystem for India (CODE YUDH).",
     docs_url=docs_url,
     redoc_url=redoc_url,
     openapi_url=openapi_url,

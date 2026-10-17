@@ -2,7 +2,7 @@ version: '3.8'
 
 # ==============================================================================
 # Career Intelligence Platform - Production Docker Compose Orchestration
-# Build for Bharat 2.0
+# CODE YUDH
 # ==============================================================================
 
 networks:

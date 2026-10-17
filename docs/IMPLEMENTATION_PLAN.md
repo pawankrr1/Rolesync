@@ -1,5 +1,5 @@
 # Career Intelligence: System Architecture & Implementation Plan
-**SIH 2026 — Build for Bharat 2.0 Hackathon**
+**SIH 2026 — CODE YUDH Hackathon**
 **Team Move-On Coders**
 
 ---
@@ -69,7 +69,7 @@ Bharat 2.0/
 ```
 
 Reference materials identified in parent and system directories:
-- `pitch.pdf` & `Move-On coders.pptx`: Official SIH 2026 Build for Bharat 2.0 pitch decks outlining project goals, personas, KPIs, architecture, and team structure.
+- `pitch.pdf` & `Move-On coders.pptx`: Official SIH 2026 CODE YUDH pitch decks outlining project goals, personas, KPIs, architecture, and team structure.
 - Legacy parent prototype (`../index.html`, `../script.js`, `../style.css`): Early monolithic HTML/JS mockup.
 
 ---
