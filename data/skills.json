@@ -1,0 +1,582 @@
+[
+  {
+    "id": "python",
+    "name": "Python",
+    "category": "Programming",
+    "description": "Interpreted high-level programming language essential for AI, data science, and backend development.",
+    "importance_weight": 1.3,
+    "aliases": ["py", "python3", "python 3", "cpython"],
+    "prerequisites": [],
+    "adjacent_skills": ["sql", "fastapi", "pandas"]
+  },
+  {
+    "id": "sql",
+    "name": "SQL",
+    "category": "Programming",
+    "description": "Standard declarative query language for relational database management and analytics.",
+    "importance_weight": 1.3,
+    "aliases": ["structured query language", "ansi sql", "plsql", "t-sql"],
+    "prerequisites": [],
+    "adjacent_skills": ["postgresql", "data_analysis"]
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "category": "Programming",
+    "description": "Dynamic web scripting language for browser and server runtime execution.",
+    "importance_weight": 1.1,
+    "aliases": ["js", "ecmascript", "es6", "vanilla js"],
+    "prerequisites": [],
+    "adjacent_skills": ["typescript", "react", "node_js"]
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "category": "Programming",
+    "description": "Typed superset of JavaScript providing static type validation and maintainability.",
+    "importance_weight": 1.1,
+    "aliases": ["ts"],
+    "prerequisites": ["javascript"],
+    "adjacent_skills": ["react", "next_js", "node_js"]
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "category": "Programming",
+    "description": "Object-oriented language engineered for portable enterprise applications.",
+    "importance_weight": 1.0,
+    "aliases": ["core java", "jdk", "jvm", "java 17"],
+    "prerequisites": [],
+    "adjacent_skills": ["sql", "system_design"]
+  },
+  {
+    "id": "cpp",
+    "name": "C++",
+    "category": "Programming",
+    "description": "Compiled high-performance language for systems, game engines, and low-latency infrastructure.",
+    "importance_weight": 1.0,
+    "aliases": ["c plus plus", "cpp"],
+    "prerequisites": [],
+    "adjacent_skills": ["data_structures_algorithms"]
+  },
+  {
+    "id": "golang",
+    "name": "Go (Golang)",
+    "category": "Programming",
+    "description": "Statically typed concurrent programming language designed by Google for cloud services.",
+    "importance_weight": 1.1,
+    "aliases": ["go", "golang"],
+    "prerequisites": [],
+    "adjacent_skills": ["docker", "kubernetes", "microservices"]
+  },
+  {
+    "id": "bash_shell",
+    "name": "Bash & Shell Scripting",
+    "category": "Programming",
+    "description": "Unix command language for infrastructure scripting and automation.",
+    "importance_weight": 1.0,
+    "aliases": ["bash", "shell", "shell scripting", "zsh"],
+    "prerequisites": ["linux"],
+    "adjacent_skills": ["linux", "devops_cicd", "docker"]
+  },
+  {
+    "id": "pandas",
+    "name": "Pandas",
+    "category": "Data",
+    "description": "Python data manipulation and tabular dataframe analysis toolkit.",
+    "importance_weight": 1.2,
+    "aliases": ["pd", "pandas dataframe"],
+    "prerequisites": ["python"],
+    "adjacent_skills": ["numpy", "data_analysis"]
+  },
+  {
+    "id": "numpy",
+    "name": "NumPy",
+    "category": "Data",
+    "description": "Fundamental array computing and linear algebra library in Python.",
+    "importance_weight": 1.0,
+    "aliases": ["np"],
+    "prerequisites": ["python"],
+    "adjacent_skills": ["pandas", "scikit_learn"]
+  },
+  {
+    "id": "etl_pipeline",
+    "name": "ETL / Data Pipelines",
+    "category": "Data",
+    "description": "Extract, Transform, Load workflows for warehousing and data consolidation.",
+    "importance_weight": 1.2,
+    "aliases": ["etl", "elt", "data pipeline", "airflow", "apache airflow"],
+    "prerequisites": ["sql", "python"],
+    "adjacent_skills": ["postgresql", "data_modeling"]
+  },
+  {
+    "id": "data_modeling",
+    "name": "Data Modeling",
+    "category": "Data",
+    "description": "Formulating schema structures, entity-relationship diagrams, and normalization.",
+    "importance_weight": 1.1,
+    "aliases": ["data modeling", "schema design", "er modeling"],
+    "prerequisites": ["sql"],
+    "adjacent_skills": ["postgresql", "system_design"]
+  },
+  {
+    "id": "machine_learning",
+    "name": "Machine Learning",
+    "category": "AI/ML",
+    "description": "Algorithms and statistical models that infer patterns without explicit rules.",
+    "importance_weight": 1.4,
+    "aliases": ["ml", "machine-learning", "supervised learning", "unsupervised learning"],
+    "prerequisites": ["python", "statistics_probability"],
+    "adjacent_skills": ["scikit_learn", "deep_learning"]
+  },
+  {
+    "id": "deep_learning",
+    "name": "Deep Learning",
+    "category": "AI/ML",
+    "description": "Artificial neural networks with deep hierarchical feature representations.",
+    "importance_weight": 1.3,
+    "aliases": ["dl", "neural networks", "artificial neural networks", "ann"],
+    "prerequisites": ["machine_learning", "python"],
+    "adjacent_skills": ["pytorch", "tensorflow", "nlp"]
+  },
+  {
+    "id": "nlp",
+    "name": "Natural Language Processing",
+    "category": "AI/ML",
+    "description": "Techniques enabling machines to understand, parse, and generate human language.",
+    "importance_weight": 1.2,
+    "aliases": ["nlp", "natural language processing", "natural language processing (nlp)", "text processing"],
+    "prerequisites": ["machine_learning", "python"],
+    "adjacent_skills": ["llms", "deep_learning"]
+  },
+  {
+    "id": "llms",
+    "name": "Large Language Models & GenAI",
+    "category": "AI/ML",
+    "description": "Transformer-based generative AI systems, prompt engineering, and RAG architectures.",
+    "importance_weight": 1.3,
+    "aliases": ["llm", "llms", "generative ai", "genai", "prompt engineering", "langchain", "rag"],
+    "prerequisites": ["nlp", "deep_learning"],
+    "adjacent_skills": ["pytorch", "python"]
+  },
+  {
+    "id": "computer_vision",
+    "name": "Computer Vision",
+    "category": "AI/ML",
+    "description": "AI discipline focused on image processing, object detection, and visual recognition.",
+    "importance_weight": 1.1,
+    "aliases": ["computer vision", "cv", "image processing", "opencv", "yolo"],
+    "prerequisites": ["deep_learning"],
+    "adjacent_skills": ["pytorch", "tensorflow"]
+  },
+  {
+    "id": "scikit_learn",
+    "name": "Scikit-Learn",
+    "category": "AI/ML",
+    "description": "Standard classical machine learning toolkit in Python for classification and clustering.",
+    "importance_weight": 1.1,
+    "aliases": ["scikitlearn", "sklearn"],
+    "prerequisites": ["python", "statistics_probability"],
+    "adjacent_skills": ["machine_learning", "pandas"]
+  },
+  {
+    "id": "pytorch",
+    "name": "PyTorch",
+    "category": "AI/ML",
+    "description": "Dynamic open-source deep learning framework for production and research.",
+    "importance_weight": 1.3,
+    "aliases": ["torch", "pytorch dl"],
+    "prerequisites": ["deep_learning", "python"],
+    "adjacent_skills": ["deep_learning", "tensorflow"]
+  },
+  {
+    "id": "tensorflow",
+    "name": "TensorFlow & Keras",
+    "category": "AI/ML",
+    "description": "End-to-end open source machine learning platform developed by Google.",
+    "importance_weight": 1.1,
+    "aliases": ["tensorflow", "tf", "keras"],
+    "prerequisites": ["deep_learning", "python"],
+    "adjacent_skills": ["pytorch", "deep_learning"]
+  },
+  {
+    "id": "mlops",
+    "name": "MLOps & Model Serving",
+    "category": "AI/ML",
+    "description": "Continuous integration, monitoring, and automated lifecycle management of ML models in production.",
+    "importance_weight": 1.2,
+    "aliases": ["mlops", "model serving", "mlflow", "feature store"],
+    "prerequisites": ["machine_learning", "docker"],
+    "adjacent_skills": ["docker", "fastapi", "kubernetes"]
+  },
+  {
+    "id": "aws",
+    "name": "Amazon Web Services",
+    "category": "Cloud",
+    "description": "Enterprise cloud computing infrastructure suite (EC2, S3, RDS, Lambda).",
+    "importance_weight": 1.3,
+    "aliases": ["aws", "amazon web services", "amazon web services (aws)", "ec2", "s3", "aws cloud"],
+    "prerequisites": ["linux"],
+    "adjacent_skills": ["docker", "kubernetes", "cloud_architecture"]
+  },
+  {
+    "id": "azure",
+    "name": "Microsoft Azure",
+    "category": "Cloud",
+    "description": "Enterprise public cloud platform for application hosting and managed services.",
+    "importance_weight": 1.1,
+    "aliases": ["azure", "ms azure", "azure cloud"],
+    "prerequisites": ["linux"],
+    "adjacent_skills": ["aws", "cloud_architecture"]
+  },
+  {
+    "id": "gcp",
+    "name": "Google Cloud Platform",
+    "category": "Cloud",
+    "description": "Public cloud suite running on Google's global distributed infrastructure.",
+    "importance_weight": 1.1,
+    "aliases": ["gcp", "google cloud", "google cloud platform", "google cloud platform (gcp)", "bigquery"],
+    "prerequisites": ["linux"],
+    "adjacent_skills": ["kubernetes", "aws"]
+  },
+  {
+    "id": "cloud_architecture",
+    "name": "Cloud Architecture",
+    "category": "Cloud",
+    "description": "Designing resilient, scalable, and high-availability cloud topologies and networking.",
+    "importance_weight": 1.2,
+    "aliases": ["cloud design", "well architected", "cloud infrastructure"],
+    "prerequisites": ["aws"],
+    "adjacent_skills": ["system_design", "devops_cicd"]
+  },
+  {
+    "id": "docker",
+    "name": "Docker & Containerization",
+    "category": "DevOps",
+    "description": "Standard lightweight container runtime environment for isolated software packaging.",
+    "importance_weight": 1.3,
+    "aliases": ["docker", "containers", "containerization", "dockerfile", "docker-compose"],
+    "prerequisites": ["linux"],
+    "adjacent_skills": ["kubernetes", "devops_cicd", "aws"]
+  },
+  {
+    "id": "kubernetes",
+    "name": "Kubernetes (K8s)",
+    "category": "DevOps",
+    "description": "Container orchestration engine for automated deployment, scaling, and recovery.",
+    "importance_weight": 1.3,
+    "aliases": ["k8s", "container orchestration", "helm"],
+    "prerequisites": ["docker", "linux"],
+    "adjacent_skills": ["docker", "aws", "cloud_architecture"]
+  },
+  {
+    "id": "devops_cicd",
+    "name": "CI/CD Pipelines",
+    "category": "DevOps",
+    "description": "Continuous Integration & Continuous Deployment automation with GitHub Actions / GitLab CI.",
+    "importance_weight": 1.2,
+    "aliases": ["ci/cd", "continuous integration", "continuous deployment", "github actions", "jenkins"],
+    "prerequisites": ["git", "docker"],
+    "adjacent_skills": ["docker", "git", "linux"]
+  },
+  {
+    "id": "linux",
+    "name": "Linux System Administration",
+    "category": "DevOps",
+    "description": "Server operating system administration, Unix permissions, process management, and networking.",
+    "importance_weight": 1.2,
+    "aliases": ["linux", "unix", "ubuntu", "debian", "redhat", "centos", "gnu/linux"],
+    "prerequisites": [],
+    "adjacent_skills": ["bash_shell", "docker", "devops_cicd"]
+  },
+  {
+    "id": "terraform",
+    "name": "Terraform (IaC)",
+    "category": "DevOps",
+    "description": "Declarative Infrastructure as Code platform for managing multi-cloud resources.",
+    "importance_weight": 1.1,
+    "aliases": ["terraform", "iac", "infrastructure as code"],
+    "prerequisites": ["aws", "linux"],
+    "adjacent_skills": ["cloud_architecture", "devops_cicd"]
+  },
+  {
+    "id": "git",
+    "name": "Git & Version Control",
+    "category": "DevOps",
+    "description": "Distributed source code tracking and version control system.",
+    "importance_weight": 1.2,
+    "aliases": ["git", "github", "gitlab", "version control"],
+    "prerequisites": [],
+    "adjacent_skills": ["devops_cicd", "linux"]
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "category": "Databases",
+    "description": "Industrial-grade open source object-relational database with ACID transactions.",
+    "importance_weight": 1.2,
+    "aliases": ["postgresql", "postgres", "psql"],
+    "prerequisites": ["sql"],
+    "adjacent_skills": ["sql", "data_modeling", "redis"]
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "Databases",
+    "description": "NoSQL document database designed for high availability and unstructured JSON storage.",
+    "importance_weight": 1.0,
+    "aliases": ["mongodb", "mongo", "nosql"],
+    "prerequisites": [],
+    "adjacent_skills": ["node_js", "fastapi"]
+  },
+  {
+    "id": "redis",
+    "name": "Redis",
+    "category": "Databases",
+    "description": "In-memory data structure store used as distributed cache, pub/sub broker, and key-value database.",
+    "importance_weight": 1.1,
+    "aliases": ["redis", "in-memory cache", "redis cache"],
+    "prerequisites": [],
+    "adjacent_skills": ["postgresql", "system_design"]
+  },
+  {
+    "id": "kafka",
+    "name": "Apache Kafka",
+    "category": "Databases",
+    "description": "Distributed event streaming platform for high-throughput real-time pipelines.",
+    "importance_weight": 1.1,
+    "aliases": ["kafka", "apache kafka", "event streaming"],
+    "prerequisites": ["java"],
+    "adjacent_skills": ["etl_pipeline", "microservices"]
+  },
+  {
+    "id": "react",
+    "name": "React.js",
+    "category": "Web",
+    "description": "Declarative component-driven JavaScript library for web interfaces.",
+    "importance_weight": 1.3,
+    "aliases": ["react", "react.js", "reactjs", "react hooks"],
+    "prerequisites": ["javascript"],
+    "adjacent_skills": ["typescript", "next_js", "rest_api"]
+  },
+  {
+    "id": "next_js",
+    "name": "Next.js",
+    "category": "Web",
+    "description": "Production React framework with server-side rendering, routing, and full-stack capabilities.",
+    "importance_weight": 1.2,
+    "aliases": ["next.js", "nextjs", "next js"],
+    "prerequisites": ["react", "typescript"],
+    "adjacent_skills": ["react", "typescript"]
+  },
+  {
+    "id": "node_js",
+    "name": "Node.js",
+    "category": "Web",
+    "description": "Cross-platform asynchronous JavaScript runtime for backend services.",
+    "importance_weight": 1.1,
+    "aliases": ["node.js", "nodejs", "express", "express.js"],
+    "prerequisites": ["javascript"],
+    "adjacent_skills": ["typescript", "mongodb", "rest_api"]
+  },
+  {
+    "id": "fastapi",
+    "name": "FastAPI",
+    "category": "Web",
+    "description": "High-performance Python web framework for building REST APIs with automatic validation.",
+    "importance_weight": 1.2,
+    "aliases": ["fastapi", "fast api", "starlette"],
+    "prerequisites": ["python"],
+    "adjacent_skills": ["python", "rest_api", "docker", "postgresql"]
+  },
+  {
+    "id": "rest_api",
+    "name": "RESTful APIs",
+    "category": "Web",
+    "description": "Stateless architectural protocol for web service client-server data exchange.",
+    "importance_weight": 1.2,
+    "aliases": ["rest api", "rest", "restful api", "restful apis", "api design"],
+    "prerequisites": [],
+    "adjacent_skills": ["fastapi", "node_js"]
+  },
+  {
+    "id": "microservices",
+    "name": "Microservices Architecture",
+    "category": "Web",
+    "description": "Modular service architecture where decoupled components communicate via HTTP/gRPC.",
+    "importance_weight": 1.1,
+    "aliases": ["microservices", "microservice architecture"],
+    "prerequisites": ["rest_api"],
+    "adjacent_skills": ["docker", "kubernetes", "system_design"]
+  },
+  {
+    "id": "network_security",
+    "name": "Network & Cloud Security",
+    "category": "Cybersecurity",
+    "description": "Safeguarding networks, firewalls, VPC perimeters, and cloud assets against unauthorized intrusion.",
+    "importance_weight": 1.2,
+    "aliases": ["network security", "firewalls", "vpn", "cybersecurity"],
+    "prerequisites": ["linux"],
+    "adjacent_skills": ["iam_auth", "linux"]
+  },
+  {
+    "id": "iam_auth",
+    "name": "IAM & Authentication (OAuth/JWT)",
+    "category": "Cybersecurity",
+    "description": "Identity verification, role-based access control, JWT tokens, and OAuth delegation.",
+    "importance_weight": 1.1,
+    "aliases": ["oauth", "jwt", "oauth2", "iam", "authentication", "authorization"],
+    "prerequisites": [],
+    "adjacent_skills": ["rest_api", "network_security"]
+  },
+  {
+    "id": "data_analysis",
+    "name": "Data Analysis",
+    "category": "Analytics",
+    "description": "Inspecting, cleaning, and transforming data to discover actionable business conclusions.",
+    "importance_weight": 1.3,
+    "aliases": ["data analysis", "data analytics", "eda", "exploratory data analysis"],
+    "prerequisites": ["sql", "excel"],
+    "adjacent_skills": ["pandas", "power_bi", "tableau"]
+  },
+  {
+    "id": "power_bi",
+    "name": "Power BI",
+    "category": "Analytics",
+    "description": "Interactive business intelligence tool by Microsoft for visual enterprise dashboards.",
+    "importance_weight": 1.2,
+    "aliases": ["power bi", "powerbi", "dax", "power query"],
+    "prerequisites": ["sql", "excel"],
+    "adjacent_skills": ["tableau", "data_visualization", "data_analysis"]
+  },
+  {
+    "id": "tableau",
+    "name": "Tableau",
+    "category": "Analytics",
+    "description": "Visual analytics dashboard platform for transforming relational queries into visual charts.",
+    "importance_weight": 1.1,
+    "aliases": ["tableau", "tableau desktop"],
+    "prerequisites": ["sql"],
+    "adjacent_skills": ["power_bi", "data_analysis"]
+  },
+  {
+    "id": "excel",
+    "name": "Advanced Excel",
+    "category": "Analytics",
+    "description": "Spreadsheet calculations, pivot tables, VLOOKUP, and statistical modeling.",
+    "importance_weight": 1.0,
+    "aliases": ["excel", "microsoft excel", "vlookup", "pivot tables"],
+    "prerequisites": [],
+    "adjacent_skills": ["power_bi", "data_analysis"]
+  },
+  {
+    "id": "statistics_probability",
+    "name": "Statistics & Probability",
+    "category": "Analytics",
+    "description": "Mathematical collection, analysis, interpretation, hypothesis testing, and Bayesian reasoning.",
+    "importance_weight": 1.3,
+    "aliases": ["statistics", "probability", "statistical modeling", "hypothesis testing"],
+    "prerequisites": [],
+    "adjacent_skills": ["machine_learning", "data_analysis"]
+  },
+  {
+    "id": "data_visualization",
+    "name": "Data Visualization",
+    "category": "Analytics",
+    "description": "Graphical representation of quantitative data through charts, plots, and visual summaries.",
+    "importance_weight": 1.1,
+    "aliases": ["data visualization", "dataviz", "matplotlib", "seaborn"],
+    "prerequisites": ["data_analysis"],
+    "adjacent_skills": ["tableau", "power_bi", "pandas"]
+  },
+  {
+    "id": "system_design",
+    "name": "System Design & Architecture",
+    "category": "Professional skills",
+    "description": "Designing high-scale, resilient distributed software architectures, caching, and database trade-offs.",
+    "importance_weight": 1.3,
+    "aliases": ["system design", "software architecture", "scalability", "high availability"],
+    "prerequisites": ["rest_api", "data_modeling"],
+    "adjacent_skills": ["cloud_architecture", "microservices", "redis"]
+  },
+  {
+    "id": "data_structures_algorithms",
+    "name": "Problem Solving & Algorithms",
+    "category": "Professional skills",
+    "description": "Core computer science fundamentals: asymptotic complexity, tree/graph algorithms, dynamic programming.",
+    "importance_weight": 1.2,
+    "aliases": ["dsa", "algorithms", "data structures", "problem solving", "algorithmic complexity"],
+    "prerequisites": [],
+    "adjacent_skills": ["python", "cpp", "java"]
+  },
+  {
+    "id": "agile_scrum",
+    "name": "Agile / Scrum Methodology",
+    "category": "Professional skills",
+    "description": "Iterative software product development framework, sprint planning, and backlog refinement.",
+    "importance_weight": 1.0,
+    "aliases": ["agile", "scrum", "sprints", "jira", "kanban"],
+    "prerequisites": [],
+    "adjacent_skills": ["git"]
+  },
+  {
+    "id": "application_security",
+    "name": "Application Security & OWASP",
+    "category": "Cybersecurity",
+    "description": "Secure coding practices, vulnerability assessment, threat modeling, and remediation of OWASP Top 10 risks.",
+    "importance_weight": 1.2,
+    "aliases": ["appsec", "owasp", "vulnerability assessment", "penetration testing", "secure coding"],
+    "prerequisites": ["network_security"],
+    "adjacent_skills": ["iam_auth", "linux"]
+  },
+  {
+    "id": "cryptography",
+    "name": "Applied Cryptography & Data Protection",
+    "category": "Cybersecurity",
+    "description": "Symmetric and asymmetric encryption, hashing algorithms, TLS/SSL certificates, and key management.",
+    "importance_weight": 1.1,
+    "aliases": ["crypto", "encryption", "tls", "ssl", "pki", "aes", "rsa"],
+    "prerequisites": [],
+    "adjacent_skills": ["network_security", "iam_auth"]
+  },
+  {
+    "id": "communication",
+    "name": "Technical Communication & Leadership",
+    "category": "Professional skills",
+    "description": "Cross-functional stakeholder collaboration, technical writing, system documentation, and engineering leadership.",
+    "importance_weight": 1.1,
+    "aliases": ["communication", "technical writing", "stakeholder management", "team leadership", "mentorship"],
+    "prerequisites": [],
+    "adjacent_skills": ["agile_scrum"]
+  },
+  {
+    "id": "spring_boot",
+    "name": "Spring Boot",
+    "category": "Web Development",
+    "description": "Enterprise Java framework used for building robust microservices and web APIs.",
+    "importance_weight": 1.1,
+    "aliases": ["spring boot", "spring framework", "spring", "spring mvc", "java spring"],
+    "prerequisites": ["java"],
+    "adjacent_skills": ["java", "microservices", "rest_api"]
+  },
+  {
+    "id": "spark",
+    "name": "Apache Spark",
+    "category": "Data Science & AI",
+    "description": "Unified analytics engine for large-scale distributed data processing and streaming.",
+    "importance_weight": 1.1,
+    "aliases": ["apache spark", "spark", "pyspark", "spark streaming", "spark sql"],
+    "prerequisites": ["python", "sql"],
+    "adjacent_skills": ["kafka", "python", "data_analysis"]
+  },
+  {
+    "id": "r",
+    "name": "R (Programming Language)",
+    "category": "Programming",
+    "description": "Programming language and environment for statistical computing and graphics.",
+    "importance_weight": 1.0,
+    "aliases": ["r", "r language", "r programming", "r script", "r studio"],
+    "prerequisites": [],
+    "adjacent_skills": ["python", "statistics_probability", "data_analysis"]
+  }
+]

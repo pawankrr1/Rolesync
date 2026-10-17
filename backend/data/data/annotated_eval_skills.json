@@ -1,0 +1,152 @@
+[
+  {
+    "doc_id": "eval_resume_backend_01",
+    "title": "Senior Backend Engineer Resume",
+    "doc_type": "resume",
+    "text": "Senior Backend Engineer with 5+ years building scalable microservices.\n\nTechnical Skills:\nLanguages: Python, Go (Golang), SQL\nFrameworks & Libraries: FastAPI, Django, REST APIs\nDatabases: PostgreSQL, Redis\nDevOps & Cloud: Docker, Kubernetes, AWS, CI/CD, Git\n\nExperience:\nStaff Software Engineer | Acme Corp (2021 - Present)\n- Developed high-throughput microservices using Python and FastAPI handling 15k requests/sec.\n- Architected relational schemas with PostgreSQL and integrated Redis caching for sub-millisecond query responses.\n- Implemented automated CI/CD pipelines deploying Docker containers to Kubernetes on AWS.",
+    "annotated_ground_truth_skills": [
+      "python",
+      "golang",
+      "sql",
+      "fastapi",
+      "django",
+      "rest_api",
+      "postgresql",
+      "redis",
+      "docker",
+      "kubernetes",
+      "aws",
+      "devops_cicd",
+      "git",
+      "microservices"
+    ],
+    "notes": "Tests multi-word frameworks, database caching, containerization, and modern language aliases."
+  },
+  {
+    "doc_id": "eval_resume_ml_02",
+    "title": "Machine Learning Engineer Resume",
+    "doc_type": "resume",
+    "text": "Machine Learning Engineer specializing in computer vision and natural language processing.\n\nCore Competencies:\n- AI / ML: Machine Learning, Deep Learning, PyTorch, TensorFlow, NLP\n- Engineering: Python, Docker, MLOps, Git\n\nProjects & Achievements:\n- Trained deep learning transformer models in PyTorch for multilingual NLP document classification.\n- Built end-to-end MLOps pipeline for model versioning and monitoring, packaged in Docker.\n- Developed predictive machine learning models using Python and scikit-learn for fraud detection.",
+    "annotated_ground_truth_skills": [
+      "computer_vision",
+      "machine_learning",
+      "deep_learning",
+      "pytorch",
+      "tensorflow",
+      "nlp",
+      "python",
+      "docker",
+      "mlops",
+      "git",
+      "monitoring",
+      "scikit_learn"
+    ],
+    "notes": "Tests AI/ML acronyms, deep learning frameworks, and MLOps tooling."
+  },
+  {
+    "doc_id": "eval_resume_data_analyst_03",
+    "title": "Data Analyst Resume",
+    "doc_type": "resume",
+    "text": "Data Analyst with extensive background in business intelligence and statistical modeling.\n\nKey Skills:\n- Tools: Microsoft Excel, Power BI, Tableau\n- Programming: SQL, Python\n- Core: Statistics, Data Analysis\n\nProfessional Experience:\nData Analyst | FinTech Corp (2022 - Present)\n- Created automated executive dashboards in Power BI and Tableau tracking revenue metrics.\n- Formulated complex SQL queries to clean and aggregate transactional data from relational databases.\n- Automated financial forecasting sheets with advanced Excel formulas and VBA macros.\n- Applied statistics and data analysis using Python for churn prediction.",
+    "annotated_ground_truth_skills": [
+      "excel",
+      "power_bi",
+      "tableau",
+      "sql",
+      "python",
+      "statistics_probability",
+      "data_analysis"
+    ],
+    "notes": "Tests BI reporting tools, statistical methods, and Excel macros."
+  },
+  {
+    "doc_id": "eval_resume_frontend_04",
+    "title": "Frontend Engineer Resume",
+    "doc_type": "resume",
+    "text": "Frontend Web Developer passionate about performant user interfaces.\n\nTechnical Stack:\n- TypeScript, JavaScript, React, Next.js, HTML5, CSS3, Tailwind CSS, Git\n\nWork History:\n- Built responsive single-page web applications using React and Next.js with TypeScript.\n- Styled accessible web interfaces adhering to modern design principles with Tailwind CSS and CSS3.\n- Maintained code repositories using Git and GitHub with pull request reviews.",
+    "annotated_ground_truth_skills": [
+      "typescript",
+      "javascript",
+      "react",
+      "next_js",
+      "html5",
+      "css3",
+      "tailwind_css",
+      "git"
+    ],
+    "notes": "Tests modern frontend web frameworks, styling languages, and version control."
+  },
+  {
+    "doc_id": "eval_resume_devops_05",
+    "title": "DevOps & Cloud Engineer Resume",
+    "doc_type": "resume",
+    "text": "Site Reliability & DevOps Engineer experienced in cloud automation and infrastructure as code.\n\nSkills & Proficiencies:\n- Cloud & Infra: AWS, Terraform, Kubernetes, Docker, Linux, CI/CD\n\nKey Highlights:\n- Automated multi-region AWS cloud infrastructure provisioning using Terraform.\n- Containerized enterprise microservices with Docker and orchestrated deployments on Kubernetes.\n- Configured automated CI/CD deployment pipelines on Linux servers.",
+    "annotated_ground_truth_skills": [
+      "aws",
+      "cloud_architecture",
+      "terraform",
+      "kubernetes",
+      "docker",
+      "linux",
+      "devops_cicd",
+      "microservices"
+    ],
+    "notes": "Tests cloud infrastructure, container orchestration, and OS fundamentals."
+  },
+  {
+    "doc_id": "eval_jd_fullstack_06",
+    "title": "Full Stack Engineer Job Description",
+    "doc_type": "job_description",
+    "text": "Position: Senior Full Stack Software Engineer\n\nJob Requirements:\n- Must have 4+ years of professional experience with Python and JavaScript or TypeScript.\n- Hands-on expertise building user interfaces with React and Next.js.\n- Strong knowledge of backend development with PostgreSQL and REST APIs.\n- Experience deploying services with Docker on AWS cloud environments.\n- Proficiency with Git version control and collaborative Agile workflows.",
+    "annotated_ground_truth_skills": [
+      "python",
+      "javascript",
+      "typescript",
+      "react",
+      "next_js",
+      "postgresql",
+      "rest_api",
+      "docker",
+      "aws",
+      "git",
+      "agile_scrum"
+    ],
+    "notes": "Tests JD requirement clauses, language alternatives, and multi-skill job postings."
+  },
+  {
+    "doc_id": "eval_jd_data_scientist_07",
+    "title": "Lead Data Scientist Job Description",
+    "doc_type": "job_description",
+    "text": "We are seeking a Lead Data Scientist to drive innovative AI solutions.\n\nRequired Qualifications:\n- Master's degree in Computer Science, Statistics, or related quantitative field.\n- Demonstrated proficiency in Machine Learning, Deep Learning, and Python.\n- Working knowledge of PyTorch and NLP algorithms.\n- Strong SQL skills for complex data querying and feature engineering.\n- Hands-on experience deploying models with Docker.\n\nPreferred Qualifications:\n- Experience with Apache Spark for distributed big data processing.\n- Familiarity with cloud platforms such as AWS or GCP.",
+    "annotated_ground_truth_skills": [
+      "statistics_probability",
+      "machine_learning",
+      "deep_learning",
+      "python",
+      "pytorch",
+      "nlp",
+      "sql",
+      "docker",
+      "spark",
+      "aws",
+      "gcp"
+    ],
+    "notes": "Tests big data, multi-cloud, and AI qualification sections."
+  },
+  {
+    "doc_id": "eval_trap_adversarial_08",
+    "title": "Conversational Email with English Trap Words",
+    "doc_type": "resume",
+    "text": "I will go to the office tomorrow morning to discuss the rest of the project with the team. We must strive to excel in customer presentations during the upcoming spring semester. Let's make sure to spark curiosity and react quickly to any client feedback. Please review my attached cv before we go ahead, and remember to take a rest over the weekend.",
+    "annotated_ground_truth_skills": [],
+    "notes": "Adversarial test designed to provoke false positives on words like 'go', 'rest', 'excel', 'spring', 'spark', 'react', 'cv'. Ground truth is 0 skills."
+  },
+  {
+    "doc_id": "eval_trap_adversarial_09",
+    "title": "Adversarial Single Letters and Non-Tech Terms",
+    "doc_type": "resume",
+    "text": "Completed grade C in Chemistry and received a daily dose of Vitamin C. In our R&D laboratory, we tested 500 ml of saline solution and analyzed Model R performance according to the spring break schedule. We need to act quickly and can proceed as planned.",
+    "annotated_ground_truth_skills": [],
+    "notes": "Adversarial test for single letters C and R, milliliters ml, seasons, and common modal words. Ground truth is 0 skills."
+  }
+]

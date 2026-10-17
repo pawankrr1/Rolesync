@@ -1,0 +1,129 @@
+version: '3.8'
+
+# ==============================================================================
+# Career Intelligence Platform - Production Docker Compose Orchestration
+# Build for Bharat 2.0
+# ==============================================================================
+
+networks:
+  career_intel_prod_net:
+    driver: bridge
+
+volumes:
+  postgres_prod_data:
+    driver: local
+  backend_storage_data:
+    driver: local
+
+services:
+  # ----------------------------------------------------------------------------
+  # 1. PostgreSQL Relational Database (Production Primary)
+  # ----------------------------------------------------------------------------
+  db:
+    image: postgres:16-alpine
+    container_name: career_intel_db_prod
+    restart: always
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-career_intelligence}
+      POSTGRES_USER: ${POSTGRES_USER:-career_admin}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Database password required}
+    volumes:
+      - postgres_prod_data:/var/lib/postgresql/data
+    networks:
+      - career_intel_prod_net
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-career_admin} -d ${POSTGRES_DB:-career_intelligence}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    deploy:
+      resources:
+        limits:
+          cpus: '1.5'
+          memory: 1536M
+
+  # ----------------------------------------------------------------------------
+  # 2. FastAPI Intelligence Engine (Production Backend)
+  # ----------------------------------------------------------------------------
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: career_intel_backend_prod
+    restart: always
+    environment:
+      - ENVIRONMENT=production
+      - DEBUG=false
+      - PROJECT_NAME=Career Intelligence API
+      - BACKEND_HOST=0.0.0.0
+      - BACKEND_PORT=8000
+      - WORKERS=${BACKEND_WORKERS:-4}
+      - SECRET_KEY=${SECRET_KEY:?Production SECRET_KEY required (min 32 chars)}
+      - CORS_ORIGINS=${CORS_ORIGINS:-https://yourdomain.com}
+      - DATABASE_URL=postgresql://${POSTGRES_USER:-career_admin}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-career_intelligence}
+    volumes:
+      - backend_storage_data:/app/storage
+    ports:
+      - "8000:8000"
+    networks:
+      - career_intel_prod_net
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python3", "scripts/healthcheck.py"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+    deploy:
+      resources:
+        limits:
+          cpus: '2.0'
+          memory: 2048M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"
+
+  # ----------------------------------------------------------------------------
+  # 3. Next.js Web Interface (Production Frontend)
+  # ----------------------------------------------------------------------------
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+    container_name: career_intel_frontend_prod
+    restart: always
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - HOSTNAME=0.0.0.0
+      - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+    ports:
+      - "3000:3000"
+    networks:
+      - career_intel_prod_net
+    depends_on:
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/api/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 15s
+    deploy:
+      resources:
+        limits:
+          cpus: '1.5'
+          memory: 1536M
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"

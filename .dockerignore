@@ -1,0 +1,48 @@
+# Version Control & OS
+.git
+.gitignore
+.github
+.DS_Store
+*.swp
+*.swo
+
+# Secrets & Local Environments
+.env
+.env.local
+.env.*.local
+*.env
+!*.env.example
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+backend/venv
+venv
+.venv
+.pytest_cache
+.coverage
+htmlcov
+
+# Node & Next.js
+node_modules
+frontend/node_modules
+frontend/.next
+.next
+frontend/out
+out
+npm-debug.log*
+yarn-debug.log*
+
+# Databases & Runtime State
+*.db
+*.sqlite
+*.sqlite3
+backend/career_intelligence.db
+career_intelligence.db
+
+# Documentation & Scratch Artifacts
+scratch/
+docs/scratchpad*

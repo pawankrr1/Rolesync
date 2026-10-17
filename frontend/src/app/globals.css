@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+:root {
+  /* THEME SYSTEM VARIABLES */
+  --primary: #2563EB;
+  --primary-dark: #1D4ED8;
+  --blue-light: #DBEAFE;
+  --blue-soft: #EFF6FF;
+  --background: #F5F9FF;
+  --surface: #FFFFFF;
+  --text-primary: #172033;
+  --text-secondary: #5E6878;
+  --text-muted: #8A94A6;
+  --border: #DCE6F2;
+  --success: #16805C;
+  --warning: #B7791F;
+  --error: #C24141;
+
+  /* BACKGROUND */
+  --background-secondary: #EFF6FF;
+  
+  /* SURFACES */
+  --card: #FFFFFF;
+  --card-elevated: #FFFFFF;
+  --card-subtle: #F5F9FF;
+
+  /* BORDERS */
+  --border-subtle: #EFF6FF;
+  --border-secondary: #DCE6F2;
+  --border-input: #DCE6F2;
+
+  /* BRAND */
+  --brand: #2563EB;
+  --brand-hover: #1D4ED8;
+  --brand-light: #EFF6FF;
+
+  /* SECONDARY ACCENT */
+  --teal: #0F9F8C;
+  --teal-light: #E8F7F4;
+
+  /* SUCCESS / STRONG */
+  --success-light: #EAF7F0;
+  --success-border: #CDEDDD;
+
+  /* WARNING / DEVELOPING */
+  --warning-light: #FFF6DD;
+  --warning-border: #F2DEAA;
+
+  /* ERROR / MISSING */
+  --error-light: #FDEEEE;
+  --error-border: #F2CACA;
+
+  /* TABLES & CHARTS */
+  --table-header: #F5F9FF;
+  --table-hover: #EFF6FF;
+  --chart-track: #E7ECF3;
+
+  /* FOOTER */
+  --footer-bg: #172033;
+  --footer-text: #FFFFFF;
+  --footer-secondary: #B8C0CD;
+  --footer-accent: #60A5FA;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-brand: var(--brand);
+  --color-brand-hover: var(--brand-hover);
+  --color-brand-light: var(--brand-light);
+  --font-sans: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+}
+
+/* Crisp text selection */
+::selection {
+  background-color: #DBEAFE;
+  color: #1D4ED8;
+}
+
+/* Unobtrusive focus rings for high keyboard accessibility */
+:focus-visible {
+  outline: 2px solid #2563EB;
+  outline-offset: 2px;
+}
+
+/* Slim professional scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8A94A6;
+}
+
+/* Subtle Carousel Slide Transition (fade + slight horizontal movement: 250ms) */
+.carousel-slide-enter {
+  animation: carouselFadeSlide 250ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes carouselFadeSlide {
+  from {
+    opacity: 0;
+    transform: translateX(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

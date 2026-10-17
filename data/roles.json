@@ -1,0 +1,230 @@
+[
+  {
+    "id": "data_scientist",
+    "title": "Data Scientist",
+    "category": "Data Science & AI",
+    "description": "Designs statistical hypotheses, builds predictive machine learning models, and mines actionable signals from large datasets.",
+    "typical_experience_years": 3,
+    "market_demand_index": 9.2,
+    "required_skills": [
+      { "skill_id": "python", "importance": 1.5, "required_level": "advanced", "is_required": true },
+      { "skill_id": "sql", "importance": 1.3, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "statistics_probability", "importance": 1.4, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "machine_learning", "importance": 1.5, "required_level": "advanced", "is_required": true },
+      { "skill_id": "pandas", "importance": 1.3, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "scikit_learn", "importance": 1.3, "required_level": "intermediate", "is_required": true }
+    ],
+    "preferred_skills": [
+      { "skill_id": "deep_learning", "importance": 1.2, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "nlp", "importance": 1.1, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "data_visualization", "importance": 1.1, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "aws", "importance": 1.0, "required_level": "beginner", "is_required": false }
+    ]
+  },
+  {
+    "id": "ml_engineer",
+    "title": "ML Engineer",
+    "category": "Data Science & AI",
+    "description": "Deploys, monitors, scales, and automates production neural models and machine learning pipelines.",
+    "typical_experience_years": 3,
+    "market_demand_index": 9.5,
+    "required_skills": [
+      { "skill_id": "python", "importance": 1.5, "required_level": "advanced", "is_required": true },
+      { "skill_id": "machine_learning", "importance": 1.5, "required_level": "advanced", "is_required": true },
+      { "skill_id": "deep_learning", "importance": 1.4, "required_level": "advanced", "is_required": true },
+      { "skill_id": "pytorch", "importance": 1.4, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "docker", "importance": 1.3, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "fastapi", "importance": 1.2, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "git", "importance": 1.1, "required_level": "intermediate", "is_required": true }
+    ],
+    "preferred_skills": [
+      { "skill_id": "kubernetes", "importance": 1.2, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "mlops", "importance": 1.3, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "tensorflow", "importance": 1.2, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "aws", "importance": 1.2, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "llms", "importance": 1.2, "required_level": "intermediate", "is_required": false }
+    ]
+  },
+  {
+    "id": "data_analyst",
+    "title": "Data Analyst",
+    "category": "Analytics & BI",
+    "description": "Transforms business data into actionable dashboards, KPIs, and statistical insights.",
+    "typical_experience_years": 2,
+    "market_demand_index": 8.8,
+    "required_skills": [
+      { "skill_id": "sql", "importance": 1.5, "required_level": "advanced", "is_required": true },
+      { "skill_id": "excel", "importance": 1.3, "required_level": "advanced", "is_required": true },
+      { "skill_id": "data_analysis", "importance": 1.4, "required_level": "advanced", "is_required": true },
+      { "skill_id": "power_bi", "importance": 1.3, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "data_visualization", "importance": 1.2, "required_level": "intermediate", "is_required": true }
+    ],
+    "preferred_skills": [
+      { "skill_id": "python", "importance": 1.2, "required_level": "beginner", "is_required": false },
+      { "skill_id": "tableau", "importance": 1.1, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "statistics_probability", "importance": 1.1, "required_level": "beginner", "is_required": false }
+    ]
+  },
+  {
+    "id": "backend_developer",
+    "title": "Backend Developer",
+    "category": "Web Development",
+    "description": "Builds resilient server architectures, high-performance REST APIs, authentication, and database schemas.",
+    "typical_experience_years": 3,
+    "market_demand_index": 9.1,
+    "required_skills": [
+      { "skill_id": "python", "importance": 1.4, "required_level": "advanced", "is_required": true },
+      { "skill_id": "sql", "importance": 1.3, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "fastapi", "importance": 1.4, "required_level": "advanced", "is_required": true },
+      { "skill_id": "postgresql", "importance": 1.3, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "docker", "importance": 1.3, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "rest_api", "importance": 1.3, "required_level": "advanced", "is_required": true },
+      { "skill_id": "git", "importance": 1.1, "required_level": "intermediate", "is_required": true }
+    ],
+    "preferred_skills": [
+      { "skill_id": "redis", "importance": 1.2, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "microservices", "importance": 1.2, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "system_design", "importance": 1.3, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "aws", "importance": 1.1, "required_level": "beginner", "is_required": false }
+    ]
+  },
+  {
+    "id": "frontend_developer",
+    "title": "Frontend Developer",
+    "category": "Web Development",
+    "description": "Builds responsive, accessible, and reactive user interfaces for modern web applications.",
+    "typical_experience_years": 2,
+    "market_demand_index": 8.9,
+    "required_skills": [
+      { "skill_id": "javascript", "importance": 1.4, "required_level": "advanced", "is_required": true },
+      { "skill_id": "typescript", "importance": 1.3, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "react", "importance": 1.5, "required_level": "advanced", "is_required": true },
+      { "skill_id": "rest_api", "importance": 1.2, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "git", "importance": 1.1, "required_level": "intermediate", "is_required": true }
+    ],
+    "preferred_skills": [
+      { "skill_id": "next_js", "importance": 1.3, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "node_js", "importance": 1.1, "required_level": "beginner", "is_required": false }
+    ]
+  },
+  {
+    "id": "fullstack_developer",
+    "title": "Full Stack Engineer",
+    "category": "Web Development",
+    "description": "Engineers end-to-end web applications covering user interfaces, RESTful microservices, and databases.",
+    "typical_experience_years": 3,
+    "market_demand_index": 9.2,
+    "required_skills": [
+      { "skill_id": "javascript", "importance": 1.3, "required_level": "advanced", "is_required": true },
+      { "skill_id": "typescript", "importance": 1.3, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "react", "importance": 1.4, "required_level": "advanced", "is_required": true },
+      { "skill_id": "node_js", "importance": 1.3, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "postgresql", "importance": 1.2, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "git", "importance": 1.1, "required_level": "intermediate", "is_required": true }
+    ],
+    "preferred_skills": [
+      { "skill_id": "next_js", "importance": 1.3, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "docker", "importance": 1.2, "required_level": "beginner", "is_required": false },
+      { "skill_id": "fastapi", "importance": 1.1, "required_level": "intermediate", "is_required": false }
+    ]
+  },
+  {
+    "id": "devops_engineer",
+    "title": "DevOps Engineer",
+    "category": "DevOps & SRE",
+    "description": "Automates continuous integration, infrastructure provisioning, and production uptime reliability.",
+    "typical_experience_years": 3,
+    "market_demand_index": 9.3,
+    "required_skills": [
+      { "skill_id": "linux", "importance": 1.4, "required_level": "advanced", "is_required": true },
+      { "skill_id": "docker", "importance": 1.4, "required_level": "advanced", "is_required": true },
+      { "skill_id": "devops_cicd", "importance": 1.4, "required_level": "advanced", "is_required": true },
+      { "skill_id": "kubernetes", "importance": 1.3, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "git", "importance": 1.1, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "aws", "importance": 1.3, "required_level": "intermediate", "is_required": true }
+    ],
+    "preferred_skills": [
+      { "skill_id": "terraform", "importance": 1.3, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "bash_shell", "importance": 1.1, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "python", "importance": 1.1, "required_level": "intermediate", "is_required": false }
+    ]
+  },
+  {
+    "id": "cloud_engineer",
+    "title": "Cloud Engineer",
+    "category": "Cloud & Infrastructure",
+    "description": "Designs cloud infrastructure, virtual networks, automated backups, and scalable enterprise server topologies.",
+    "typical_experience_years": 3,
+    "market_demand_index": 9.4,
+    "required_skills": [
+      { "skill_id": "aws", "importance": 1.5, "required_level": "advanced", "is_required": true },
+      { "skill_id": "linux", "importance": 1.3, "required_level": "advanced", "is_required": true },
+      { "skill_id": "docker", "importance": 1.3, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "kubernetes", "importance": 1.3, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "cloud_architecture", "importance": 1.4, "required_level": "advanced", "is_required": true }
+    ],
+    "preferred_skills": [
+      { "skill_id": "terraform", "importance": 1.3, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "azure", "importance": 1.1, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "postgresql", "importance": 1.1, "required_level": "intermediate", "is_required": false }
+    ]
+  },
+  {
+    "id": "software_engineer",
+    "title": "Software Engineer",
+    "category": "Core Engineering",
+    "description": "Develops clean, maintainable, and modular software across foundational systems and business products.",
+    "typical_experience_years": 2,
+    "market_demand_index": 9.0,
+    "required_skills": [
+      { "skill_id": "python", "importance": 1.3, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "sql", "importance": 1.2, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "data_structures_algorithms", "importance": 1.4, "required_level": "advanced", "is_required": true },
+      { "skill_id": "git", "importance": 1.2, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "linux", "importance": 1.1, "required_level": "intermediate", "is_required": true }
+    ],
+    "preferred_skills": [
+      { "skill_id": "docker", "importance": 1.1, "required_level": "beginner", "is_required": false },
+      { "skill_id": "rest_api", "importance": 1.1, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "system_design", "importance": 1.2, "required_level": "intermediate", "is_required": false }
+    ]
+  },
+  {
+    "id": "data_engineer",
+    "title": "Data Engineer",
+    "category": "Data",
+    "description": "Constructs high-throughput ETL pipelines, data lakes, distributed event streams, and analytical warehouses.",
+    "typical_experience_years": 3,
+    "market_demand_index": 9.3,
+    "required_skills": [
+      { "skill_id": "python", "importance": 1.4, "required_level": "advanced", "is_required": true },
+      { "skill_id": "sql", "importance": 1.5, "required_level": "advanced", "is_required": true },
+      { "skill_id": "etl_pipeline", "importance": 1.5, "required_level": "advanced", "is_required": true },
+      { "skill_id": "postgresql", "importance": 1.3, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "data_modeling", "importance": 1.3, "required_level": "advanced", "is_required": true },
+      { "skill_id": "git", "importance": 1.1, "required_level": "intermediate", "is_required": true }
+    ],
+    "preferred_skills": [
+      { "skill_id": "kafka", "importance": 1.3, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "docker", "importance": 1.2, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "aws", "importance": 1.2, "required_level": "intermediate", "is_required": false }
+    ]
+  },
+  {
+    "id": "cybersecurity_analyst",
+    "title": "Cybersecurity Analyst",
+    "category": "Cybersecurity",
+    "description": "Protects organizational network assets, performs vulnerability audits, and oversees identity governance.",
+    "typical_experience_years": 2,
+    "market_demand_index": 8.9,
+    "required_skills": [
+      { "skill_id": "network_security", "importance": 1.5, "required_level": "advanced", "is_required": true },
+      { "skill_id": "linux", "importance": 1.3, "required_level": "intermediate", "is_required": true },
+      { "skill_id": "iam_auth", "importance": 1.4, "required_level": "advanced", "is_required": true }
+    ],
+    "preferred_skills": [
+      { "skill_id": "python", "importance": 1.2, "required_level": "intermediate", "is_required": false },
+      { "skill_id": "aws", "importance": 1.1, "required_level": "beginner", "is_required": false }
+    ]
+  }
+]

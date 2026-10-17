@@ -1,0 +1,452 @@
+[
+  {
+    "id": "job_demo_01",
+    "title": "Senior Python Backend Engineer",
+    "company": "FinCore Global Systems (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 3,
+    "description": "Architect high-concurrency payment APIs and data persistence microservices using Python, FastAPI, and PostgreSQL. Docker experience required.",
+    "skills": ["python", "fastapi", "postgresql", "docker", "rest_api", "git"]
+  },
+  {
+    "id": "job_demo_02",
+    "title": "Machine Learning Specialist",
+    "company": "VisionMetrics AI Labs (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 3,
+    "description": "Develop and fine-tune computer vision and deep learning classifiers using PyTorch, Python, and Scikit-Learn for edge devices.",
+    "skills": ["python", "machine_learning", "deep_learning", "pytorch", "scikit_learn", "docker"]
+  },
+  {
+    "id": "job_demo_03",
+    "title": "Data Analyst - Product & Growth",
+    "company": "QuickCommerce Direct (Demo)",
+    "location": "Gurugram, Haryana",
+    "experience_years_min": 2,
+    "description": "Deliver weekly business reporting and cohort analysis dashboards using advanced SQL, Power BI, and Excel modeling.",
+    "skills": ["sql", "excel", "data_analysis", "power_bi", "statistics_probability"]
+  },
+  {
+    "id": "job_demo_04",
+    "title": "Cloud DevOps Engineer",
+    "company": "Apex Cloud Infrastructure (Demo)",
+    "location": "Pune, Maharashtra",
+    "experience_years_min": 3,
+    "description": "Manage multi-cluster Kubernetes deployments on AWS with automated GitHub Actions CI/CD and Linux system tuning.",
+    "skills": ["aws", "docker", "kubernetes", "linux", "devops_cicd", "git"]
+  },
+  {
+    "id": "job_demo_05",
+    "title": "React Frontend Developer",
+    "company": "Digital Bharat Media (Demo)",
+    "location": "Noida, Uttar Pradesh",
+    "experience_years_min": 2,
+    "description": "Build high-speed, mobile-first web applications using React.js, TypeScript, and modern responsive CSS.",
+    "skills": ["javascript", "typescript", "react", "rest_api", "git"]
+  },
+  {
+    "id": "job_demo_06",
+    "title": "Lead Data Scientist",
+    "company": "HealthPulse Analytics (Demo)",
+    "location": "Hyderabad, Telangana",
+    "experience_years_min": 4,
+    "description": "Formulate predictive disease modeling hypotheses using Python, Statistics, Pandas, and Scikit-Learn algorithms.",
+    "skills": ["python", "statistics_probability", "machine_learning", "pandas", "sql", "scikit_learn"]
+  },
+  {
+    "id": "job_demo_07",
+    "title": "Full Stack Software Engineer",
+    "company": "SaaSForge Innovations (Demo)",
+    "location": "Bengaluru, Karnataka (Remote)",
+    "experience_years_min": 3,
+    "description": "Develop customer-facing portals across React.js frontends and Node.js / PostgreSQL backend microservices.",
+    "skills": ["javascript", "typescript", "react", "node_js", "postgresql", "git"]
+  },
+  {
+    "id": "job_demo_08",
+    "title": "ETL Data Platform Engineer",
+    "company": "OmniStream Warehousing (Demo)",
+    "location": "Chennai, Tamil Nadu",
+    "experience_years_min": 3,
+    "description": "Build automated data lakehouse extraction pipelines using Python, SQL, PostgreSQL, and Apache Airflow.",
+    "skills": ["python", "sql", "etl_pipeline", "data_modeling", "postgresql", "git"]
+  },
+  {
+    "id": "job_demo_09",
+    "title": "Cybersecurity & IAM Specialist",
+    "company": "SecureNet Defense Labs (Demo)",
+    "location": "Mumbai, Maharashtra",
+    "experience_years_min": 3,
+    "description": "Implement zero-trust security postures, OAuth2 / JWT authentication, and Linux network boundary security.",
+    "skills": ["network_security", "iam_auth", "linux", "rest_api"]
+  },
+  {
+    "id": "job_demo_10",
+    "title": "Associate Software Engineer",
+    "company": "NextGen Infotech (Demo)",
+    "location": "Hyderabad, Telangana",
+    "experience_years_min": 1,
+    "description": "Write maintainable software modules and run algorithmic validations using Python, SQL, and Git version control.",
+    "skills": ["python", "sql", "data_structures_algorithms", "git", "linux"]
+  },
+  {
+    "id": "job_demo_11",
+    "title": "FastAPI Microservices Developer",
+    "company": "PayStream Technologies (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 2,
+    "description": "Develop high-throughput REST APIs and Redis-backed caching layers with Python and FastAPI.",
+    "skills": ["python", "fastapi", "redis", "postgresql", "docker"]
+  },
+  {
+    "id": "job_demo_12",
+    "title": "Junior Business Intelligence Analyst",
+    "company": "RetailMatrix India (Demo)",
+    "location": "Kolkata, West Bengal",
+    "experience_years_min": 1,
+    "description": "Design interactive reporting dashboards in Tableau and Excel for supply chain operations.",
+    "skills": ["sql", "tableau", "excel", "data_analysis"]
+  },
+  {
+    "id": "job_demo_13",
+    "title": "Deep Learning NLP Engineer",
+    "company": "IndiLinguistic AI (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 3,
+    "description": "Train and optimize multilingual Indian language NLP models with PyTorch and Transformer architectures.",
+    "skills": ["python", "nlp", "deep_learning", "pytorch", "llms", "docker"]
+  },
+  {
+    "id": "job_demo_14",
+    "title": "Site Reliability Engineer (SRE)",
+    "company": "CloudMatrix Global (Demo)",
+    "location": "Pune, Maharashtra",
+    "experience_years_min": 3,
+    "description": "Ensure 99.99% uptime of Kubernetes clusters, automated CI/CD releases, and Linux kernel monitoring.",
+    "skills": ["linux", "docker", "kubernetes", "devops_cicd", "bash_shell", "aws"]
+  },
+  {
+    "id": "job_demo_15",
+    "title": "AWS Cloud Security Architect",
+    "company": "CyberShield Enterprise (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 4,
+    "description": "Architect AWS VPC perimeters, IAM delegation boundaries, and container security compliance.",
+    "skills": ["aws", "network_security", "iam_auth", "cloud_architecture", "linux"]
+  },
+  {
+    "id": "job_demo_16",
+    "title": "Next.js Web Developer",
+    "company": "GrowthCraft Digital (Demo)",
+    "location": "Gurugram, Haryana",
+    "experience_years_min": 2,
+    "description": "Build server-rendered e-commerce landing pages and checkout journeys with Next.js and TypeScript.",
+    "skills": ["react", "next_js", "typescript", "javascript", "rest_api"]
+  },
+  {
+    "id": "job_demo_17",
+    "title": "Data Science Associate",
+    "company": "Kavach InsurTech (Demo)",
+    "location": "Mumbai, Maharashtra",
+    "experience_years_min": 2,
+    "description": "Calculate actuarial risk models using Python, Pandas, NumPy, and statistical hypothesis testing.",
+    "skills": ["python", "statistics_probability", "pandas", "numpy", "data_analysis"]
+  },
+  {
+    "id": "job_demo_18",
+    "title": "Kubernetes Cluster Administrator",
+    "company": "FinScale Infrastructures (Demo)",
+    "location": "Hyderabad, Telangana",
+    "experience_years_min": 3,
+    "description": "Deploy microservice container pods, configure ingress controllers, and run Linux diagnostic scripts.",
+    "skills": ["kubernetes", "docker", "linux", "bash_shell", "git"]
+  },
+  {
+    "id": "job_demo_19",
+    "title": "Distributed Systems Engineer (Go)",
+    "company": "ByteRoute Networks (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 3,
+    "description": "Build high-throughput network routing agents and telemetry scrapers with Go and Docker.",
+    "skills": ["golang", "docker", "linux", "microservices", "git"]
+  },
+  {
+    "id": "job_demo_20",
+    "title": "Power BI Reporting Analyst",
+    "company": "LogiCorp India (Demo)",
+    "location": "Ahmedabad, Gujarat",
+    "experience_years_min": 1,
+    "description": "Translate ERP freight databases into clean Power BI executive dashboards and Excel workbooks.",
+    "skills": ["sql", "power_bi", "excel", "data_analysis"]
+  },
+  {
+    "id": "job_demo_21",
+    "title": "MLOps Pipeline Specialist",
+    "company": "AutoModel Systems (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 3,
+    "description": "Build automated continuous retraining and validation loops for PyTorch models using Docker and FastAPI.",
+    "skills": ["mlops", "python", "machine_learning", "pytorch", "docker", "fastapi"]
+  },
+  {
+    "id": "job_demo_22",
+    "title": "Backend API Developer (Node/TypeScript)",
+    "company": "UrbanFleet Mobility (Demo)",
+    "location": "Chennai, Tamil Nadu",
+    "experience_years_min": 2,
+    "description": "Develop dispatch and geofencing endpoints with Node.js, TypeScript, PostgreSQL, and Redis.",
+    "skills": ["typescript", "node_js", "postgresql", "redis", "rest_api"]
+  },
+  {
+    "id": "job_demo_23",
+    "title": "Data Pipeline & Kafka Engineer",
+    "company": "StreamFast Telemetry (Demo)",
+    "location": "Pune, Maharashtra",
+    "experience_years_min": 3,
+    "description": "Ingest millions of vehicle IoT sensor messages daily using Apache Kafka, Python, and PostgreSQL.",
+    "skills": ["kafka", "python", "etl_pipeline", "postgresql", "docker"]
+  },
+  {
+    "id": "job_demo_24",
+    "title": "Core Java Backend Developer",
+    "company": "BancTrust Technologies (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 3,
+    "description": "Maintain core transactional banking engines with Java 17, SQL queries, and Linux deployment.",
+    "skills": ["java", "sql", "linux", "git", "system_design"]
+  },
+  {
+    "id": "job_demo_25",
+    "title": "Computer Vision ML Researcher",
+    "company": "AgriScan Robotics (Demo)",
+    "location": "Hyderabad, Telangana",
+    "experience_years_min": 3,
+    "description": "Train drone crop disease classification models using PyTorch, OpenCV, and Python deep learning.",
+    "skills": ["computer_vision", "pytorch", "deep_learning", "python", "scikit_learn"]
+  },
+  {
+    "id": "job_demo_26",
+    "title": "Terraform Cloud Automation Engineer",
+    "company": "SkyHigh Infrastructure (Demo)",
+    "location": "Gurugram, Haryana",
+    "experience_years_min": 3,
+    "description": "Author declarative Terraform templates to provision scalable AWS VPCs and Kubernetes worker nodes.",
+    "skills": ["terraform", "aws", "kubernetes", "linux", "git"]
+  },
+  {
+    "id": "job_demo_27",
+    "title": "Frontend UI/UX Engineer",
+    "company": "EduCraft Academy (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 2,
+    "description": "Develop interactive quizzes and gamified student interfaces using React.js and modern JavaScript.",
+    "skills": ["react", "javascript", "typescript", "git"]
+  },
+  {
+    "id": "job_demo_28",
+    "title": "Predictive Analytics Consultant",
+    "company": "Apex Advisory Partners (Demo)",
+    "location": "Mumbai, Maharashtra",
+    "experience_years_min": 3,
+    "description": "Advise enterprise executives on customer churn using Scikit-Learn classifiers and Tableau dashboards.",
+    "skills": ["scikit_learn", "machine_learning", "pandas", "tableau", "statistics_probability"]
+  },
+  {
+    "id": "job_demo_29",
+    "title": "Junior Python Developer",
+    "company": "SmartData Studio (Demo)",
+    "location": "Indore, Madhya Pradesh",
+    "experience_years_min": 1,
+    "description": "Write automated web scraping and data cleansing scripts in Python with SQL database staging.",
+    "skills": ["python", "sql", "pandas", "git"]
+  },
+  {
+    "id": "job_demo_30",
+    "title": "Cloud Native Fullstack Engineer",
+    "company": "CloudVentures India (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 3,
+    "description": "Build enterprise dashboards using Next.js, FastAPI, Docker, and AWS serverless components.",
+    "skills": ["next_js", "react", "fastapi", "docker", "aws"]
+  },
+  {
+    "id": "job_demo_31",
+    "title": "Database Administrator (PostgreSQL)",
+    "company": "DataFortress Services (Demo)",
+    "location": "Noida, Uttar Pradesh",
+    "experience_years_min": 3,
+    "description": "Tune slow SQL queries, configure replication failover, and manage Linux PostgreSQL clusters.",
+    "skills": ["postgresql", "sql", "linux", "data_modeling"]
+  },
+  {
+    "id": "job_demo_32",
+    "title": "AI Conversational Agent Developer",
+    "company": "ChatSphere AI (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 2,
+    "description": "Build customer support retrieval-augmented generation (RAG) pipelines using Python, LLMs, and FastAPI.",
+    "skills": ["llms", "nlp", "python", "fastapi", "docker"]
+  },
+  {
+    "id": "job_demo_33",
+    "title": "DevOps Release Automation Engineer",
+    "company": "SpeedRelease Systems (Demo)",
+    "location": "Pune, Maharashtra",
+    "experience_years_min": 2,
+    "description": "Maintain GitHub Actions workflows, automated regression gates, and Docker image builds.",
+    "skills": ["devops_cicd", "docker", "git", "bash_shell", "linux"]
+  },
+  {
+    "id": "job_demo_34",
+    "title": "Operations & Financial Data Analyst",
+    "company": "CapitalBridge India (Demo)",
+    "location": "Mumbai, Maharashtra",
+    "experience_years_min": 2,
+    "description": "Consolidate balance sheet figures, analyze variance, and present monthly Power BI decks.",
+    "skills": ["excel", "sql", "power_bi", "data_analysis"]
+  },
+  {
+    "id": "job_demo_35",
+    "title": "High-Performance C++ Systems Engineer",
+    "company": "QuantPulse Trading (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 3,
+    "description": "Build microsecond-latency market feed parsers using modern C++ and Linux socket programming.",
+    "skills": ["cpp", "linux", "data_structures_algorithms", "git"]
+  },
+  {
+    "id": "job_demo_36",
+    "title": "Security Operations Center (SOC) Analyst",
+    "company": "SafePerimeter Cyber (Demo)",
+    "location": "Hyderabad, Telangana",
+    "experience_years_min": 2,
+    "description": "Investigate security alerts, audit network firewall logs, and enforce multi-factor authentication.",
+    "skills": ["network_security", "iam_auth", "linux"]
+  },
+  {
+    "id": "job_demo_37",
+    "title": "Data Quality & ETL Validation Analyst",
+    "company": "VeriData Labs (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 2,
+    "description": "Write automated SQL test assertions and verify incoming pipeline feeds with Python.",
+    "skills": ["sql", "python", "etl_pipeline", "pandas"]
+  },
+  {
+    "id": "job_demo_38",
+    "title": "Microservices Integration Architect",
+    "company": "ScaleWorks Software (Demo)",
+    "location": "Gurugram, Haryana",
+    "experience_years_min": 4,
+    "description": "Design distributed event-driven microservices with FastAPI, Redis, Kafka, and System Design patterns.",
+    "skills": ["fastapi", "microservices", "system_design", "redis", "kafka", "docker"]
+  },
+  {
+    "id": "job_demo_39",
+    "title": "TypeScript Web Platform Developer",
+    "company": "FinTech Hub India (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 3,
+    "description": "Engineer reusable component libraries with React.js, TypeScript, and automated testing.",
+    "skills": ["typescript", "react", "javascript", "git"]
+  },
+  {
+    "id": "job_demo_40",
+    "title": "Statistical Research Modeler",
+    "company": "BioInformatics Labs (Demo)",
+    "location": "Pune, Maharashtra",
+    "experience_years_min": 3,
+    "description": "Design parametric hypothesis tests and genetic sequence models using Python and Statistics.",
+    "skills": ["statistics_probability", "python", "pandas", "numpy"]
+  },
+  {
+    "id": "job_demo_41",
+    "title": "Cloud Platform Reliability Engineer",
+    "company": "HostScale Cloud (Demo)",
+    "location": "Chennai, Tamil Nadu",
+    "experience_years_min": 3,
+    "description": "Maintain high-availability Kubernetes worker nodes and AWS multi-region failover automation.",
+    "skills": ["aws", "kubernetes", "docker", "linux", "cloud_architecture"]
+  },
+  {
+    "id": "job_demo_42",
+    "title": "Data Visualization Specialist",
+    "company": "Infogram Analytics (Demo)",
+    "location": "Hyderabad, Telangana",
+    "experience_years_min": 2,
+    "description": "Transform multi-dimensional datasets into interactive visual storytelling dashboards in Tableau.",
+    "skills": ["tableau", "data_visualization", "data_analysis", "sql"]
+  },
+  {
+    "id": "job_demo_43",
+    "title": "Backend Golang Engineer",
+    "company": "MicroByte Distributed (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 2,
+    "description": "Develop concurrent cloud services with Go, Docker, and RESTful API endpoints.",
+    "skills": ["golang", "docker", "rest_api", "git"]
+  },
+  {
+    "id": "job_demo_44",
+    "title": "Junior Machine Learning Engineer",
+    "company": "CognitiveAI Systems (Demo)",
+    "location": "Noida, Uttar Pradesh",
+    "experience_years_min": 1,
+    "description": "Assist in data labeling, model validation, and training baseline Scikit-Learn models in Python.",
+    "skills": ["python", "machine_learning", "scikit_learn", "pandas"]
+  },
+  {
+    "id": "job_demo_45",
+    "title": "Container Infrastructure Specialist",
+    "company": "StackForge Cloud (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 3,
+    "description": "Write and audit multi-stage Dockerfiles, Docker Compose files, and Linux daemon configurations.",
+    "skills": ["docker", "linux", "bash_shell", "devops_cicd"]
+  },
+  {
+    "id": "job_demo_46",
+    "title": "Python API Security Engineer",
+    "company": "TrustVault India (Demo)",
+    "location": "Gurugram, Haryana",
+    "experience_years_min": 3,
+    "description": "Secure public endpoints against OWASP Top 10 vulnerabilities with FastAPI and IAM token verification.",
+    "skills": ["fastapi", "network_security", "iam_auth", "python"]
+  },
+  {
+    "id": "job_demo_47",
+    "title": "E-Commerce Data Analyst",
+    "company": "BazaarDirect Retail (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 2,
+    "description": "Measure checkout drop-off rates and promotional impact using SQL, Power BI, and Excel.",
+    "skills": ["sql", "power_bi", "excel", "data_analysis"]
+  },
+  {
+    "id": "job_demo_48",
+    "title": "Enterprise Cloud Engineer (Azure)",
+    "company": "AzureScale Solutions (Demo)",
+    "location": "Mumbai, Maharashtra",
+    "experience_years_min": 3,
+    "description": "Provision Microsoft Azure virtual machines, storage accounts, and Linux container registries.",
+    "skills": ["azure", "linux", "docker", "cloud_architecture"]
+  },
+  {
+    "id": "job_demo_49",
+    "title": "Agile Software Project Engineer",
+    "company": "SprintWorks Technologies (Demo)",
+    "location": "Hyderabad, Telangana",
+    "experience_years_min": 2,
+    "description": "Coordinate sprint delivery, PR reviews, and automated CI test execution across Python teams.",
+    "skills": ["agile_scrum", "git", "python", "devops_cicd"]
+  },
+  {
+    "id": "job_demo_50",
+    "title": "AI Platform & Pipeline Architect",
+    "company": "DeepBharat Intelligence (Demo)",
+    "location": "Bengaluru, Karnataka",
+    "experience_years_min": 4,
+    "description": "Lead the architectural roadmap for enterprise AI models using PyTorch, LLMs, Docker, and Kubernetes.",
+    "skills": ["deep_learning", "pytorch", "llms", "kubernetes", "docker", "system_design"]
+  }
+]

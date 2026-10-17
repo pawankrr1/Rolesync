@@ -1,0 +1,139 @@
+{
+  "frontend_initial_load": {
+    "Landing Page": {
+      "mean_ms": 22.13,
+      "median_ms": 21.3,
+      "min_ms": 20.74,
+      "max_ms": 28.6,
+      "p95_ms": 28.6,
+      "status_code": 200,
+      "content_length_bytes": 55027
+    },
+    "Candidate Upload": {
+      "mean_ms": 20.67,
+      "median_ms": 19.31,
+      "min_ms": 11.01,
+      "max_ms": 41.33,
+      "p95_ms": 41.33,
+      "status_code": 200,
+      "content_length_bytes": 46066
+    },
+    "Candidate Results": {
+      "mean_ms": 11.41,
+      "median_ms": 11.03,
+      "min_ms": 10.79,
+      "max_ms": 12.85,
+      "p95_ms": 12.85,
+      "status_code": 200,
+      "content_length_bytes": 39289
+    },
+    "Recruiter Dashboard": {
+      "mean_ms": 12.18,
+      "median_ms": 11.08,
+      "min_ms": 10.29,
+      "max_ms": 20.97,
+      "p95_ms": 20.97,
+      "status_code": 200,
+      "content_length_bytes": 44997
+    },
+    "Market Intelligence Dashboard": {
+      "mean_ms": 14.12,
+      "median_ms": 12.43,
+      "min_ms": 11.39,
+      "max_ms": 31.34,
+      "p95_ms": 31.34,
+      "status_code": 200,
+      "content_length_bytes": 99482
+    }
+  },
+  "document_parsing": {
+    "pdf": {
+      "mean_ms": 2.0,
+      "median_ms": 1.99,
+      "min_ms": 1.97,
+      "max_ms": 2.07,
+      "p95_ms": 2.03
+    },
+    "docx": {
+      "mean_ms": 4.23,
+      "median_ms": 3.7,
+      "min_ms": 3.6,
+      "max_ms": 7.47,
+      "p95_ms": 7.33
+    },
+    "txt": {
+      "mean_ms": 0.15,
+      "median_ms": 0.15,
+      "min_ms": 0.15,
+      "max_ms": 0.16,
+      "p95_ms": 0.16
+    }
+  },
+  "resume_upload_api": {
+    "pdf_upload": {
+      "mean_ms": 2.96,
+      "median_ms": 2.95,
+      "min_ms": 2.82,
+      "max_ms": 3.19,
+      "p95_ms": 3.19
+    },
+    "docx_upload": {
+      "mean_ms": 1.13,
+      "median_ms": 1.02,
+      "min_ms": 0.99,
+      "max_ms": 2.35,
+      "p95_ms": 2.35
+    }
+  },
+  "skill_extraction": {
+    "full_extraction": {
+      "mean_ms": 6.3,
+      "median_ms": 6.28,
+      "min_ms": 6.21,
+      "max_ms": 6.46,
+      "p95_ms": 6.43
+    },
+    "term_normalization": {
+      "mean_ms": 0.07,
+      "median_ms": 0.07,
+      "min_ms": 0.07,
+      "max_ms": 0.08,
+      "p95_ms": 0.08
+    },
+    "skills_detected": 30
+  },
+  "matching": {
+    "single_match": {
+      "mean_ms": 0.07,
+      "median_ms": 0.07,
+      "min_ms": 0.07,
+      "max_ms": 0.07,
+      "p95_ms": 0.07
+    },
+    "batch_ranking_10_candidates": {
+      "mean_ms": 0.71,
+      "median_ms": 0.71,
+      "min_ms": 0.7,
+      "max_ms": 0.72,
+      "p95_ms": 0.72
+    }
+  },
+  "dashboard_and_payload": {
+    "api_endpoint": {
+      "mean_ms": 2.34,
+      "median_ms": 2.34,
+      "min_ms": 2.26,
+      "max_ms": 2.52,
+      "p95_ms": 2.43
+    },
+    "core_computation": {
+      "mean_ms": 0.81,
+      "median_ms": 0.81,
+      "min_ms": 0.78,
+      "max_ms": 0.87,
+      "p95_ms": 0.85
+    },
+    "payload_size_bytes": 38899,
+    "payload_size_kb": 37.99
+  }
+}
